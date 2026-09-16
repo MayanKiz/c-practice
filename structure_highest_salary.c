@@ -1,7 +1,6 @@
 #include <stdio.h>
-// Finds the employee with the highest salary.
 
-struct Employee
+struct employee
 {
     int id;
     char name[50];
@@ -10,7 +9,7 @@ struct Employee
 
 int main()
 {
-    struct Employee employee[5];
+    struct employee employee[5];
     int i, highest = 0;
 
     for (i = 0; i < 5; i++)

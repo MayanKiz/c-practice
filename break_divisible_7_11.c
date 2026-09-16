@@ -1,5 +1,4 @@
 #include <stdio.h>
-// Prints numbers and stops at the first multiple of 7 and 11.
 
 int main()
 {

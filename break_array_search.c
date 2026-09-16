@@ -1,5 +1,4 @@
 #include <stdio.h>
-// Searches for a number in an array using break.
 
 int main()
 {

@@ -1,5 +1,4 @@
 #include <stdio.h>
-// Prints the action for a traffic light colour.
 
 int main()
 {

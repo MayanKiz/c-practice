@@ -1,7 +1,6 @@
 #include <stdio.h>
-// Stores and displays details of three books.
 
-struct Book
+struct book
 {
     char title[100];
     char author[50];
@@ -10,7 +9,7 @@ struct Book
 
 int main()
 {
-    struct Book book[3];
+    struct book book[3];
     int i;
 
     for (i = 0; i < 3; i++)

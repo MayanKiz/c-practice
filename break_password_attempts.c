@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-// Gives the user three password attempts.
 
 int main()
 {

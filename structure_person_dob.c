@@ -1,22 +1,21 @@
 #include <stdio.h>
-// Uses a nested structure to store a person's date of birth.
 
-struct DOB
+struct dob
 {
     int day;
     int month;
     int year;
 };
 
-struct Person
+struct person
 {
     char name[50];
-    struct DOB dob;
+    struct dob dob;
 };
 
 int main()
 {
-    struct Person person;
+    struct person person;
 
     printf("Enter name: ");
     scanf(" %49[^\n]", person.name);

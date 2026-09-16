@@ -1,5 +1,4 @@
 #include <stdio.h>
-// Checks whether a number is prime using break.
 
 int main()
 {

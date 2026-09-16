@@ -1,19 +1,18 @@
 #include <stdio.h>
-// Stores and displays one student's details.
 
-struct Student
+struct student
 {
-    int rollNo;
+    int rollno;
     char name[50];
     float marks;
 };
 
 int main()
 {
-    struct Student s;
+    struct student s;
 
     printf("Enter roll number: ");
-    scanf("%d", &s.rollNo);
+    scanf("%d", &s.rollno);
 
     printf("Enter name: ");
     scanf(" %49[^\n]", s.name);
@@ -22,7 +21,7 @@ int main()
     scanf("%f", &s.marks);
 
     printf("\nStudent Details\n");
-    printf("Roll Number: %d\n", s.rollNo);
+    printf("Roll Number: %d\n", s.rollno);
     printf("Name: %s\n", s.name);
     printf("Marks: %.2f\n", s.marks);
 
