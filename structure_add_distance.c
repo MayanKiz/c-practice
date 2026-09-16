@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Adds two distances in feet and inches.
 
 struct Distance
 {
@@ -8,7 +9,7 @@ struct Distance
 
 int main()
 {
-    struct Distance first, second, sum;
+    struct Distance first, second, total;
 
     printf("Enter first distance\n");
     printf("Feet: ");
@@ -22,16 +23,16 @@ int main()
     printf("Inch: ");
     scanf("%d", &second.inch);
 
-    sum.feet = first.feet + second.feet;
-    sum.inch = first.inch + second.inch;
+    total.feet = first.feet + second.feet;
+    total.inch = first.inch + second.inch;
 
-    if (sum.inch >= 12)
+    if (total.inch >= 12)
     {
-        sum.feet = sum.feet + (sum.inch / 12);
-        sum.inch = sum.inch % 12;
+        total.feet = total.feet + (total.inch / 12);
+        total.inch = total.inch % 12;
     }
 
-    printf("\nTotal Distance = %d feet %d inch\n", sum.feet, sum.inch);
+    printf("\nTotal Distance = %d feet %d inch\n", total.feet, total.inch);
 
     return 0;
 }

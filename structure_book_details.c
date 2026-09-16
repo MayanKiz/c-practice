@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Stores and displays details of three books.
 
 struct Book
 {

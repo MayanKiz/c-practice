@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Finds the employee with the highest salary.
 
 struct Employee
 {
@@ -25,7 +26,7 @@ int main()
         printf("Enter salary: ");
         scanf("%f", &employee[i].salary);
 
-        if (employee[i].salary > employee[highest].salary)
+        if (i == 0 || employee[i].salary > employee[highest].salary)
         {
             highest = i;
         }

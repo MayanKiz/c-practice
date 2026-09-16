@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Uses a nested structure to store a person's date of birth.
 
 struct DOB
 {

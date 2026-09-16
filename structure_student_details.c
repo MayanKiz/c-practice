@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Stores and displays one student's details.
 
 struct Student
 {
@@ -21,7 +22,7 @@ int main()
     scanf("%f", &s.marks);
 
     printf("\nStudent Details\n");
-    printf("Roll Numberr: %d\n", s.rollNo);
+    printf("Roll Number: %d\n", s.rollNo);
     printf("Name: %s\n", s.name);
     printf("Marks: %.2f\n", s.marks);
 
