@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("Name: Your Name\n");
-    printf("Branch: Your Branch\n");
+    printf("Name: Mayank \n");
+    printf("Branch: CSE [AI ML]\n");
     return 0;
 }
