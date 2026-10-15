@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int a[10000],n;if(scanf("%d",&n)!=1||n<2||n>10000)return 1;for(int i=0;i<n;++i)if(scanf("%d",&a[i])!=1)return 1;int first=0,second=0,has1=0,has2=0;for(int i=0;i<n;++i){int x=a[i];if(!has1||x>first){if(has1&&x!=first){second=first;has2=1;}first=x;has1=1;}else if(x<first&&(!has2||x>second)){second=x;has2=1;}}if(has2)printf("%d\n",second);else puts("no second distinct value");return 0;}
