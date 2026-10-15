@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int a[1000],n;long long s=0;if(scanf("%d",&n)!=1||n<0||n>1000)return 1;for(int i=0;i<n;++i)if(scanf("%d",&a[i])!=1)return 1;for(int *p=a;p<a+n;++p)s+=*p;printf("%lld\n",s);return 0;}
