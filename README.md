@@ -17,4 +17,4 @@ Existing C practice is organized under `C/`, retaining its topic folders and sou
 1. Open the language folder you want to practise.
 2. Read its README for topics and suggested order.
 3. Run programs locally and experiment with the input.
-4. Focus on understanding the approach and edge cases instead of copying solutions....
+4. Focus on understanding the approach and edge cases instead of copying solutions..
