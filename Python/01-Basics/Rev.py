@@ -1,1 +1,1 @@
-text = input()
+text = input("Enter the text")
