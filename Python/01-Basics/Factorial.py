@@ -1,1 +1,2 @@
-n = int(input())
+n = int(input("enter the no"))
+fact
