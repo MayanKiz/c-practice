@@ -1,3 +1,5 @@
-text = input("Enter the text")
+text = input("Enter the text: ")
 rev = ""
-for 
+for ch in text:
+    rev = ch + rev
+print("Reversed:", rev)
