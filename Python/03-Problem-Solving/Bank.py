@@ -21,6 +21,6 @@ while choice != 4:
         else:
             print("Insufficient balance.")
     elif choice == 4:
-        print("Thank you for using the ATM.")
+        print("Thank you for using the ATM.Fuk")
     else:
         print("Invalid choice. Please choose a number between 1 and 4.")
