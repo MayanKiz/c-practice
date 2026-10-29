@@ -4,4 +4,4 @@ c=int(input())
 d=int(input())
 if a>b and a>c and a>d:
   print("A")
-elif 
+elif a>b and a>c and a>d:
