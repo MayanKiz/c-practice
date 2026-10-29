@@ -5,4 +5,5 @@ d=int(input())
 if a>b and a>c and a>d:
   print("a is greater")
 elif b>a and b>c and b>d:
-  print("b")
+  print("b is greater")
+eli
