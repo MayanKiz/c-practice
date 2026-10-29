@@ -1,7 +1,7 @@
 a=int(input("A"))
 b=int(input("B"))
 c=int(input("C"))
-d=int(input(""))
+d=int(input("D"))
 if a>b and a>c and a>d:
   print("a is greater")
 elif b>a and b>c and b>d:
