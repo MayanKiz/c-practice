@@ -1,6 +1,6 @@
 a=int(input("A"))
 b=int(input("B"))
-c=int(input())
+c=int(input("C"))
 d=int(input())
 if a>b and a>c and a>d:
   print("a is greater")
