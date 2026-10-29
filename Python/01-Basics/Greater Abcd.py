@@ -1,4 +1,4 @@
 a=int(input())
-=int(input())
+b=int(input())
 a=int(input())
 a=int(input())
