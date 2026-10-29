@@ -1,4 +1,4 @@
-a=int(input(""))
+a=int(input("A"))
 b=int(input())
 c=int(input())
 d=int(input())
